@@ -19,5 +19,15 @@ def output_array(array)
   end
 end
 
+def return_string_array(array)
+  new_array = []
+  for i in array do
+    new_value = i.to_s
+    new_array << new_value
+  end
+  new_array
+end
 
+
+  
     
