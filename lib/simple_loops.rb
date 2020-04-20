@@ -13,3 +13,11 @@ def loop_message_n_times(input, number_times)
   end
 end
 
+def output_array(array)
+  for i in array do
+    puts i
+  end
+end
+
+
+    
